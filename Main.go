@@ -13,6 +13,9 @@ func main() {
 	fmt.Println("This is Head Recursion")
 	RecursionPackage.HeadRecursion(number)
 
-	fmt.Println("This is Tail Recursion")
+	fmt.Println("\nThis is Tail Recursion")
 	RecursionPackage.TailRecursion(number)
+
+	fmt.Println("\nThis is Tree Recursion")
+	RecursionPackage.TreeRecursion(number)
 }

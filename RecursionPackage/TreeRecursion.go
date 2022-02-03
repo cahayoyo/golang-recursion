@@ -2,9 +2,10 @@ package RecursionPackage
 
 import "fmt"
 
-func TailRecursion(n int) {
+func TreeRecursion(n int) {
 	if n > 0 {
 		fmt.Printf("%d ", n)
-		TailRecursion(n - 1)
+		TreeRecursion(n - 1)
+		TreeRecursion(n - 1)
 	}
 }
