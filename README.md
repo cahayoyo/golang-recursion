@@ -2,6 +2,7 @@
 
 ## Recursion Uses Stack
 ```
+All recursion uses stack
 It will call function, and returning function 1 by 1 through the stack
 ```
 
