@@ -21,4 +21,8 @@ func main() {
 
 	fmt.Println("\nThis is Indirect Recursion")
 	RecursionPackage.IndirectA(number)
+
+	fmt.Println("\nThis is Nested Recursion")
+	fmt.Print(RecursionPackage.NestedRecursion(number))
+	fmt.Print(" <- Result Return")
 }
