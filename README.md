@@ -1,5 +1,5 @@
 # Recursion in Golang
-**Time Complexity of Recursion is _O(n)_**
+
 ## Recursion Uses Stack
 ```
 All recursion uses stack
