@@ -24,3 +24,4 @@ It will call function, and returning function 1 by 1 through the stack
   - Calling another function that will lead into cycle
 
 **5. Nested Recursion**
+  - Parameter in function recursion will be recursion also
