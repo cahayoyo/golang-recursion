@@ -18,4 +18,7 @@ func main() {
 
 	fmt.Println("\nThis is Tree Recursion")
 	RecursionPackage.TreeRecursion(number)
+
+	fmt.Println("\nThis is Indirect Recursion")
+	RecursionPackage.IndirectA(number)
 }
